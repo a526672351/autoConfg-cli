@@ -25,7 +25,11 @@
     "chalk": "^2.4.1",
     "co": "^4.6.0",
     "commander": "^2.19.0",
+    "compressing": "^1.4.0",
     "inquirer": "^6.2.1",
+    "mz-modules": "^2.1.0",
+    "ora": "^3.0.0",
+    "shelljs": "^0.8.3",
     "urllib": "^2.31.3"
   }
 }
