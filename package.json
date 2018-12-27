@@ -29,6 +29,7 @@
     "inquirer": "^6.2.1",
     "mz-modules": "^2.1.0",
     "ora": "^3.0.0",
+    "proxy-agent": "^3.0.3",
     "shelljs": "^0.8.3",
     "urllib": "^2.31.3"
   }
