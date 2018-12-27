@@ -2,9 +2,14 @@
   "name": "autoconfg-cli",
   "version": "1.0.0",
   "description": "auto confg cli",
-  "main": "index.js",
+  "main": "lib/command.js",
   "scripts": {
+    "lint": "eslint .",
+    "fix": "eslint --fix .",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "autoConfg": "bin/cli.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/a526672351/autoConfg-cli/issues"
   },
-  "homepage": "https://github.com/a526672351/autoConfg-cli#readme"
+  "homepage": "https://github.com/a526672351/autoConfg-cli#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "co": "^4.6.0",
+    "commander": "^2.19.0",
+    "inquirer": "^6.2.1",
+    "urllib": "^2.31.3"
+  }
 }
