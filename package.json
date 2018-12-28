@@ -1,6 +1,6 @@
 {
   "name": "autoconfg-cli",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "auto confg cli",
   "main": "lib/command.js",
   "scripts": {
