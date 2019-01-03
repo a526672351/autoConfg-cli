@@ -26,7 +26,7 @@ Init project repository helper tools.
 ## Install
 
 ```bash
-$ npm i autoConfg-cli -g
+$ npm i autoconfg-cli -g
 $ autoConfg -h
 $ autoConfg init --sync [url]
 $ autoConfg init
